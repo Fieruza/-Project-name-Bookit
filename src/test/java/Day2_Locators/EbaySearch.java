@@ -25,6 +25,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
         driver cannot locate the element.
          */
 
+
+
             WebDriverManager.chromedriver().setup();
             WebDriver driver = new ChromeDriver();
 
@@ -33,6 +35,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
             //I used name here just to practice
             WebElement searchBox = driver.findElement(By.name("_nkw"));
+
 
             Thread.sleep(4000);
             //   Keys.ENTER --> Click the Enter key
