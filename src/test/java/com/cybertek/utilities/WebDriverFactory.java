@@ -26,7 +26,4 @@ public class WebDriverFactory {
         return driver;
     }
 
-    public static void main(String[] args) {
-        getDriver("chrome");
-    }
 }
